@@ -69,6 +69,7 @@ def main():
         urlopen(req)
     except:
         pass
-
+access_token = os.environp[BOT_TOKEN]
+client.run(access_token)
 if __name__ == '__main__':
     main()
